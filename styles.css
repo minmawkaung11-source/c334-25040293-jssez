@@ -44,9 +44,11 @@ h3 { font-size: 1.1rem; }
 
 a { color: var(--brand); }
 
+/* Two-tone focus ring: yellow shows on dark areas, navy shows on white */
 :focus-visible {
   outline: 3px solid var(--focus);
-  outline-offset: 3px;
+  outline-offset: 2px;
+  box-shadow: 0 0 0 7px var(--ink);
   border-radius: 4px;
 }
 
